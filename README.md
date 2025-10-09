@@ -15,7 +15,7 @@ Correo: PHPMailer
 # 🛠️ Configuración Inicial
 Para que el proyecto funcione correctamente, es necesario realizar tres pasos de configuración cruciales.
 
-#1. Variables de Entorno y Claves Secretas
+# 1. Variables de Entorno y Claves Secretas
 Debes reemplazar los placeholders en los siguientes archivos con tus claves secretas y configuraciones reales.
 
 Archivo
@@ -48,15 +48,15 @@ $STORAGE_ROOT
 
 Ruta ABSOLUTA y segura (fuera del directorio web público) donde se guardan las imágenes originales de alta resolución.
 
-#2. Instalación de Dependencias
+# 2. Instalación de Dependencias
 Ejecuta Composer para instalar las librerías necesarias (Stripe y PHPMailer).
 
 composer install
 
-#3. Estructura de Carpetas
+# 3. Estructura de Carpetas
 Asegúrate de que la estructura de carpetas de la API sea similar a esta (asumiendo que los endpoints están dentro de una carpeta /api):
 
-#backendphotograpy/
+# backendphotograpy/
 ├── api/
 │   ├── create_checkout.php
 │   ├── download.php
@@ -80,36 +80,36 @@ Descripción
 
 get_photos.php
 
-#GET
+# GET
 
 Obtiene la lista completa de fotos disponibles para la galería principal. (Simulación de DB/Fuente).
 
 search_by_face.php
 
-#POST
+# POST
 
 Recibe una imagen (searchImage) vía multipart/form-data. Simula el proceso de reconocimiento facial y devuelve los IDs de las fotos que coinciden.
 
 send_contact.php
 
-#POST
+# POST
 
 Recibe datos de contacto (name, email, message) y utiliza PHPMailer para enviar un correo electrónico.
 
 create_checkout.php
 
-#POST
+# POST
 
 Recibe un photoId. Crea una Stripe Checkout Session y devuelve la URL de redirección al frontend.
 
 verify_payment.php
 
-#POST
+# POST
 
 Recibe sessionId y photoId de Stripe. Verifica que el pago haya sido exitoso y, si lo fue, genera y almacena un token de descarga temporal.
 
 download.php
 
-#GET
+# GET
 
 Recibe un token y un id de imagen. Verifica la validez y expiración del token y fuerza la descarga segura de la imagen de alta resolución desde el directorio privado.
