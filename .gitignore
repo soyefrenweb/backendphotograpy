@@ -1,0 +1,10 @@
+# Credenciales y archivos de configuración
+config.php
+.env
+
+# Dependencias de composer
+/vendor/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

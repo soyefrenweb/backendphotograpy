@@ -1,0 +1,8 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.19.0",
+        "stripe/stripe-php": "^17.6",
+        "mercadopago/dx-php": "^3.7",
+        "phpmailer/phpmailer": "^6.11"
+    }
+}
