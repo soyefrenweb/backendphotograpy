@@ -93,7 +93,7 @@ backendphotograpy/
 
 
 
-#⚙️ Endpoints de la API
+# ⚙️ Endpoints de la API
 El backend expone las siguientes funciones a través de sus archivos PHP:
 
 Archivo
