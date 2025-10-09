@@ -1,0 +1,274 @@
+[18-Sep-2025 23:03:19 Europe/Berlin] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 401) Invalid API Key provided: sk_test_*****************aqui
+Stripe\Exception\AuthenticationException: Invalid API Key provided: sk_test_*****************aqui in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php:38
+Stack trace:
+#0 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(235): Stripe\Exception\ApiErrorException::factory('Invalid API Key...', 401, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), NULL)
+#1 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(193): Stripe\ApiRequestor::_specificV1APIError('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#2 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(650): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, 'v1')
+#3 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(137): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), 'v1')
+#4 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(111): Stripe\ApiRequestor->request('post', '/v1/checkout/se...', Array, Array, 'v1', Array)
+#5 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Checkout\Session.php(145): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/se...', Array, NULL)
+#6 C:\xampp\htdocs\api\create_checkout.php(54): Stripe\Checkout\Session::create(Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38
+[18-Sep-2025 23:05:23 Europe/Berlin] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 401) Invalid API Key provided: sk_test_******************_KEY
+Stripe\Exception\AuthenticationException: Invalid API Key provided: sk_test_******************_KEY in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php:38
+Stack trace:
+#0 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(235): Stripe\Exception\ApiErrorException::factory('Invalid API Key...', 401, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), NULL)
+#1 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(193): Stripe\ApiRequestor::_specificV1APIError('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#2 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(650): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, 'v1')
+#3 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(137): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), 'v1')
+#4 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(111): Stripe\ApiRequestor->request('post', '/v1/checkout/se...', Array, Array, 'v1', Array)
+#5 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Checkout\Session.php(145): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/se...', Array, NULL)
+#6 C:\xampp\htdocs\api\create_checkout.php(54): Stripe\Checkout\Session::create(Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38
+[18-Sep-2025 23:11:22 Europe/Berlin] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 401) Invalid API Key provided: sk_test_******************_KEY
+Stripe\Exception\AuthenticationException: Invalid API Key provided: sk_test_******************_KEY in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php:38
+Stack trace:
+#0 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(235): Stripe\Exception\ApiErrorException::factory('Invalid API Key...', 401, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), NULL)
+#1 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(193): Stripe\ApiRequestor::_specificV1APIError('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#2 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(650): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, 'v1')
+#3 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(137): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), 'v1')
+#4 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(111): Stripe\ApiRequestor->request('post', '/v1/checkout/se...', Array, Array, 'v1', Array)
+#5 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Checkout\Session.php(145): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/se...', Array, NULL)
+#6 C:\xampp\htdocs\api\create_checkout.php(54): Stripe\Checkout\Session::create(Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38
+[18-Sep-2025 23:58:01 Europe/Berlin] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 401) Invalid API Key provided: sk_test_******************_KEY
+Stripe\Exception\AuthenticationException: Invalid API Key provided: sk_test_******************_KEY in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php:38
+Stack trace:
+#0 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(235): Stripe\Exception\ApiErrorException::factory('Invalid API Key...', 401, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), NULL)
+#1 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(193): Stripe\ApiRequestor::_specificV1APIError('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#2 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(650): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, 'v1')
+#3 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(137): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), 'v1')
+#4 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(111): Stripe\ApiRequestor->request('post', '/v1/checkout/se...', Array, Array, 'v1', Array)
+#5 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Checkout\Session.php(145): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/se...', Array, NULL)
+#6 C:\xampp\htdocs\api\create_checkout.php(54): Stripe\Checkout\Session::create(Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38
+[18-Sep-2025 23:58:15 Europe/Berlin] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 401) Invalid API Key provided: sk_test_******************_KEY
+Stripe\Exception\AuthenticationException: Invalid API Key provided: sk_test_******************_KEY in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php:38
+Stack trace:
+#0 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(235): Stripe\Exception\ApiErrorException::factory('Invalid API Key...', 401, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), NULL)
+#1 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(193): Stripe\ApiRequestor::_specificV1APIError('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#2 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(650): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, 'v1')
+#3 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiRequestor.php(137): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), 'v1')
+#4 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(111): Stripe\ApiRequestor->request('post', '/v1/checkout/se...', Array, Array, 'v1', Array)
+#5 C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Checkout\Session.php(145): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/se...', Array, NULL)
+#6 C:\xampp\htdocs\api\create_checkout.php(54): Stripe\Checkout\Session::create(Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\api\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38
+[2025-10-08 00:14:22] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:14:22] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[08-Oct-2025 00:14:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:28
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 28
+[2025-10-08 00:17:50] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:17:50] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[08-Oct-2025 00:17:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:28
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 28
+[2025-10-08 00:19:05] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:19:05] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[08-Oct-2025 00:19:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:28
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 28
+[2025-10-08 00:22:40] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:22:40] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:22:40] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => dani@gmail.com
+    [message] => correo no real
+)
+
+[08-Oct-2025 00:22:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 00:23:48] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:23:48] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:23:48] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => dani@gmail.com
+    [message] => ssssssssss
+)
+
+[08-Oct-2025 00:23:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:32
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 32
+[2025-10-08 00:31:07] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:31:07] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:31:07] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => prueba@gmail.com
+    [message] => testtttttttt
+)
+
+[08-Oct-2025 00:31:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 00:32:02] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:32:02] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:32:02] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => prueba@gmail.com
+    [message] => test test 
+)
+
+[08-Oct-2025 00:32:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 00:32:29] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:32:29] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:32:29] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => prueba@gmail.com
+    [message] => test test 
+)
+
+[08-Oct-2025 00:32:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 00:33:20] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:33:20] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:33:20] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => prueba@gmail.com
+    [message] => test test test
+)
+
+[08-Oct-2025 00:33:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 00:33:50] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:33:50] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:33:50] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => prueba@gmail.com
+    [message] => testttttttttttt
+)
+
+[08-Oct-2025 00:33:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 00:34:20] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:34:20] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:34:20] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => dani@gmail.com
+    [message] => ttttttttttt
+)
+
+[08-Oct-2025 00:34:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 00:34:46] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:34:46] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:34:46] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => prueba@gmail.com
+    [message] => tttttttttttttt
+)
+
+[08-Oct-2025 00:34:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 00:35:59] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:35:59] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:35:59] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => prueba@gmail.com
+    [message] => pruebaaaaaa
+)
+
+[08-Oct-2025 00:35:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 00:59:54] [DEBUG] Stripe API Key configurada.
+[2025-10-08 00:59:54] [INFO] Ruta solicitada: send_contact. Cargando archivo: C:\xampp\htdocs\api/endpoints/send_contact.php
+[2025-10-08 00:59:54] [DEBUG] Datos recibidos para Contacto: Array
+(
+    [name] => prueba
+    [email] => prueba@gmail.com
+    [message] => tessssssssst
+)
+
+[08-Oct-2025 00:59:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\api\endpoints\send_contact.php:31
+Stack trace:
+#0 C:\xampp\htdocs\api\Module.php(86): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\api\endpoints\send_contact.php on line 31
+[2025-10-08 01:09:10] [DEBUG] Stripe API Key configurada.
+[2025-10-08 01:09:10] [INFO] Ruta solicitada: get_photos. Cargando archivo: C:\xampp\htdocs\api/endpoints/get_photos.php
+[2025-10-08 01:09:10] [INFO] Enviando 5 fotos a Angular.
+[2025-10-08 01:10:28] [DEBUG] Stripe API Key configurada.
+[2025-10-08 01:10:28] [INFO] Ruta solicitada: get_photos. Cargando archivo: C:\xampp\htdocs\api/endpoints/get_photos.php
+[2025-10-08 01:10:28] [INFO] Enviando 5 fotos a Angular.
+[2025-10-08 01:11:37] [DEBUG] Stripe API Key configurada.
+[2025-10-08 01:11:37] [INFO] Ruta solicitada: create_checkout. Cargando archivo: C:\xampp\htdocs\api/endpoints/create_checkout.php
+[2025-10-08 01:11:37] [WARNING] Error 404: Foto con ID 4 no encontrada para checkout.
+[2025-10-08 02:08:44] [DEBUG] Stripe API Key configurada.
+[2025-10-08 02:08:44] [INFO] Ruta solicitada: create_checkout. Cargando archivo: C:\xampp\htdocs\api/endpoints/create_checkout.php
+[2025-10-08 02:08:44] [WARNING] Error 404: Foto con ID 5 no encontrada para checkout.
+[2025-10-08 02:08:51] [DEBUG] Stripe API Key configurada.
+[2025-10-08 02:08:51] [INFO] Ruta solicitada: get_photos. Cargando archivo: C:\xampp\htdocs\api/endpoints/get_photos.php
+[2025-10-08 02:08:51] [INFO] Enviando 5 fotos a Angular.
+[2025-10-08 02:08:51] [DEBUG] Stripe API Key configurada.
+[2025-10-08 02:08:51] [INFO] Ruta solicitada: get_photos. Cargando archivo: C:\xampp\htdocs\api/endpoints/get_photos.php
+[2025-10-08 02:08:51] [INFO] Enviando 5 fotos a Angular.
+[2025-10-08 02:08:54] [DEBUG] Stripe API Key configurada.
+[2025-10-08 02:08:54] [INFO] Ruta solicitada: create_checkout. Cargando archivo: C:\xampp\htdocs\api/endpoints/create_checkout.php
+[2025-10-08 02:08:54] [WARNING] Error 404: Foto con ID 5 no encontrada para checkout.
+[2025-10-08 20:12:28] [DEBUG] Stripe API Key configurada.
+[2025-10-08 20:12:28] [INFO] Ruta solicitada: get_photos. Cargando archivo: C:\xampp\htdocs\api/endpoints/get_photos.php
+[2025-10-08 20:12:28] [INFO] Enviando 5 fotos a Angular.
+[2025-10-08 20:15:46] [DEBUG] Stripe API Key configurada.
+[2025-10-08 20:15:46] [INFO] Ruta solicitada: get_photos. Cargando archivo: C:\xampp\htdocs\api/endpoints/get_photos.php
+[2025-10-08 20:15:46] [INFO] Enviando 6 fotos a Angular.
+[2025-10-08 22:29:25] [DEBUG] Stripe API Key configurada.
+[2025-10-08 22:29:25] [INFO] Ruta solicitada: get_photos. Cargando archivo: C:\xampp\htdocs\api/endpoints/get_photos.php
+[2025-10-08 22:29:25] [INFO] Enviando 6 fotos a Angular.
+[2025-10-08 22:31:28] [DEBUG] Stripe API Key configurada.
+[2025-10-08 22:31:28] [INFO] Ruta solicitada: get_photos. Cargando archivo: C:\xampp\htdocs\api/endpoints/get_photos.php
+[2025-10-08 22:31:28] [INFO] Enviando 6 fotos a Angular.
+[2025-10-08 22:31:35] [DEBUG] Stripe API Key configurada.
+[2025-10-08 22:31:35] [INFO] Ruta solicitada: get_photos. Cargando archivo: C:\xampp\htdocs\api/endpoints/get_photos.php
+[2025-10-08 22:31:35] [INFO] Enviando 6 fotos a Angular.
+[2025-10-08 22:51:22] [DEBUG] Stripe API Key configurada.
+[2025-10-08 22:51:22] [INFO] Ruta solicitada: create_checkout. Cargando archivo: C:\xampp\htdocs\api/endpoints/create_checkout.php
+[2025-10-08 22:51:22] [WARNING] Error 404: Foto con ID 5 no encontrada para checkout.
