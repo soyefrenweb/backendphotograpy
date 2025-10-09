@@ -60,16 +60,38 @@ backendphotograpy/
 
 
 ├── api/
+
+
 │   ├── create_checkout.php
+
+
 │   ├── download.php
+
+
 │   ├── get_photos.php
+
+
 │   ├── search_by_face.php
+
+
 │   ├── send_contact.php
+
+
 │   └── verify_payment.php
+
+
 ├── private_storage/
+
+
 │   └── images/  <-- Tus imágenes de alta resolución (protegidas)
+
+
 ├── vendor/      <-- Creada por Composer
+
+
 └── ... (otros archivos)
+
+
 
 #⚙️ Endpoints de la API
 El backend expone las siguientes funciones a través de sus archivos PHP:
