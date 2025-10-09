@@ -57,6 +57,8 @@ composer install
 Asegúrate de que la estructura de carpetas de la API sea similar a esta (asumiendo que los endpoints están dentro de una carpeta /api):
 
 backendphotograpy/
+
+
 ├── api/
 │   ├── create_checkout.php
 │   ├── download.php
